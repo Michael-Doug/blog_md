@@ -67,4 +67,6 @@ DeviseTokenAuth.setup do |config|
   config.default_confirm_success_url = 'http://localhost:4200/login'
 
   config.default_password_reset_url = 'http://localhost:4200/reset-password'
+
+  config.remove_tokens_after_password_reset = true
 end
